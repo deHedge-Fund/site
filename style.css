@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bg-image {
+    background-image: url("assets/background-no-twist.png");
+    background-size: cover;
+    background-repeat: repeat-y;
+  }
+
+  .bg-worm {
+    position: relative;
+    background-image: url(assets/worm_inversed.png);
+    background-repeat: no-repeat;
+    background-size: 70vw;
+    bottom: 0px;
+  }
+
+  .button-bg-image-grey {
+    background-color: #213b4f;
+  }
+
+  .bg-group-grey {
+    background-color: #223c50;
+  }
+
+  .bg-group-gradient-teal-grey {
+    background: linear-gradient(225.49deg, #223c50 2.02%, #68bea5 189.73%);
+  }
+
+  .button-bg-image-yellow {
+    background-color: #fae170;
+  }
+
+  .bg-hero {
+    background-image: url("assets/hero-sm.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  @media(min-width: 768px){
+    .bg-hero {
+      background-image: url("assets/hero.png");
+    }
+  }
+
+  .bg-gradient-teal-to-indigo {
+    background-image: linear-gradient(to right, #0C2941, #213B4F);
+  }
+
+  .bg-skew-content-container {
+    transform: skewY(-4deg);
+  }
+
+  .content-unskew {
+    transform: skewY(4deg);
+  }
+
+  .bg-hero-gradient {
+    background-image: linear-gradient(to left, #051B37 50%, #213B4F);
+    transform: skewY(-4deg);
+  }
+
+  .bg-gradient-indigo-to-teal-bottom-70 {
+    background-image: linear-gradient(to bottom, #051B37 60%, #213B4F);
+  }
+
+  .bg-gradient-indigo-to-teal-left-70 {
+    background-image: linear-gradient(to left, #051B37 50%, #213B4F);
+  }
+
+  .bg-gradient-indigo-to-teal-right-70 {
+    background-image: linear-gradient(to right, #051B37 50%, #213B4F);
+  }
+
+  .text-primary-teal {
+    color: #6cc5aa;
+  }
+
+  .text-dh-yellow {
+    color: #fae170;
+  }
+
+  .text-primary-dark-blue {
+    color: #1c2838;
+  }
+
+  .hero-main {
+    min-height: 107vh;
+  }
+
+  .btn-discord:active, .btn-discord:focus, .btn-discord:hover {
+    background-color: #5865f2;
+    color: #fff;
+  }
+
+  .btn-twitter:active, .btn-twitter:focus, .btn-twitter:hover {
+    background-color: rgb(29, 155, 240);
+    color: #fff;
+  }
+
+  .btn-telegram:active, .btn-telegram:focus, .btn-telegram:hover {
+    background-color: #0088cc;
+    color: #fff;
+  }
+
+  .hover-button-bg-image-teal:hover, .hover-button-bg-image-teal:active, .hover-button-bg-image-teal:focus {
+    background-color: #6cc5aa;
+    color: #fff;
+  }
+
+  .hover-button-bg-image-orange:hover, .hover-button-bg-image-orange:active, .hover-button-bg-image-orange:focus {
+    background-color: #e7b931;
+  }
+
+  .hover-button-bg-image-teal:hover svg, 
+  .hover-button-bg-image-teal:hover svg path, 
+  .hover-button-bg-image-teal:hover svg plygon, 
+  .hover-button-bg-image-teal:hover svg circle {
+    fill: #ffffff !important;
+  }
+
+  .btn-telegram:hover svg, 
+  .btn-telegram:hover svg path, 
+  .btn-telegram:hover svg plygon, 
+  .btn-telegram:hover svg circle {
+    fill: #ffffff !important;
+  }
+
+  .btn-twitter:hover svg, 
+  .btn-twitter:hover svg path, 
+  .btn-twitter:hover svg plygon, 
+  .btn-twitter:hover svg circle {
+    fill: #ffffff !important;
+  }
+
+  .btn-discord:hover svg, 
+  .btn-discord:hover svg path, 
+  .btn-discord:hover svg plygon, 
+  .btn-discord:hover svg circle {
+    fill: #ffffff !important;
+  }
+
+  .hover-bg-teal:hover {
+    background-color: #6cc5aa;
+  }
